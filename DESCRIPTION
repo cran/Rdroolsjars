@@ -1,10 +1,10 @@
 Package: Rdroolsjars
 Type: Package
-Version: 1.0.0
-Date: 2017-03-22
+Version: 1.0.1
+Date: 2017-06-19
 Title: Rdrools JARs
-Authors@R: c(person("Ashwin","Raaghav", email = "ashraaghav@gmail.com", role = c("cre","aut")),
-			person("SMS","Chauhan", role = c("aut")),
+Authors@R: c(person("Ashwin","Raaghav", email = "Ashwin.Raaghav@mu-sigma.com", role = c("cre","aut")),
+		person("SMS","Chauhan", role = c("aut")),
             person("Red Hat, Inc.", role = c("cph","ctb"), comment = "Drools and KIE libraries"),
             person("Terence Parr", role = c("cph","ctb"), comment = "antlr library"),
             person("The Apache Software Foundation", role = c("cph","ctb"), comment = "Apache commons library"),
@@ -14,7 +14,7 @@ Authors@R: c(person("Ashwin","Raaghav", email = "ashraaghav@gmail.com", role = c
             person("XStream Committers", role = c("cph","ctb"), comment = "XStream library"),
             person("Joe Walnes", role = c("cph","ctb"), comment = "XStream core library"),
             person("The Eclipse Foundation", role = c("cph","ctb"), comment = "ECJ library"))
-Maintainer: Ashwin Raaghav <ashraaghav@gmail.com>
+Maintainer: Ashwin Raaghav <Ashwin.Raaghav@mu-sigma.com>
 Description: External jars required for package 'Rdrools'.
 Depends: R (>= 3.0.0), rJava
 SystemRequirements: Java (>= 7.0)
@@ -22,7 +22,7 @@ Copyright: file COPYRIGHTS
 License: Apache License 2.0
 LazyLoad: yes
 NeedsCompilation: no
-Packaged: 2017-04-24 08:25:43 UTC; ashwin
+Packaged: 2017-06-19 12:11:26 UTC; ashwin
 Author: Ashwin Raaghav [cre, aut],
   SMS Chauhan [aut],
   Red Hat, Inc. [cph, ctb] (Drools and KIE libraries),
@@ -35,4 +35,4 @@ Author: Ashwin Raaghav [cre, aut],
   Joe Walnes [cph, ctb] (XStream core library),
   The Eclipse Foundation [cph, ctb] (ECJ library)
 Repository: CRAN
-Date/Publication: 2017-04-24 10:39:31
+Date/Publication: 2017-06-19 22:51:02 UTC
